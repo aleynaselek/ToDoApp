@@ -13,4 +13,13 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'ToDo Application';
+
+  todoItem = {
+    description: "kahvaltı",
+    action: true
+  }
+
+  getTitle(){
+    return this.title;
+  }
 }
